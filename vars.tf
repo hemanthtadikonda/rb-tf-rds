@@ -1,0 +1,15 @@
+variable "tags" {}
+variable "env" {}
+variable "rds_type" {}
+variable "instance_class" {}
+variable "instance_count" {}
+variable "skip_final_snapshot" {}
+variable "preferred_backup_window" {}
+variable "backup_retention_period" {}
+variable "engine_version" {}
+variable "engine" {}
+variable "pg_family" {}
+variable "sg_ingress_cidr" {}
+variable "rds_port" {}
+variable "vpc_id" {}
+variable "subnet_ids" {}
