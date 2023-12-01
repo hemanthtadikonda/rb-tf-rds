@@ -1,9 +1,9 @@
 data "aws_ssm_parameter" "master_username" {
-  name = "rds.dev.master_username"
+  name = "${var.env}.rds.master_username"
 }
 data "aws_ssm_parameter" "master_password" {
-  name = "rds.dev.master_password"
+  name = "${var.env}.rds.master_password"
 }
 data "aws_ssm_parameter" "database_name" {
-  name = "rds.dev.database_name"
+  name = "${var.env}.rds.database_name"
 }
